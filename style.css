@@ -1,6 +1,19 @@
 body {
   height: 100vh;
   background-color: rgb(228, 163, 44);
+  margin: 20px 0 0 0;
+}
+
+.logo {
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}
+
+.logo img {
+  width: 220px;
+  height: 220px;
+  background-color: transparent;
 }
 
 .container {
@@ -55,22 +68,22 @@ h2 {
 }
 
 img {
-  border-radius: 200%;
+  border-radius: 100%;
   background-color: rgb(228, 163, 44);
   margin: 0;
 }
 
 button {
   background-color: black;
-  border-radius: 5px;
-  border-left: 20px;
-  padding: 10px;
+  width: 150px;
+  height: 50px;
   color: white;
+  border-radius: 5px;
   margin: 10px;
   cursor: grab;
 }
 
-.button1 {
+.button {
   border-radius: 7px;
   padding: 0px 30px 0px 30px;
   margin: 10px 0 0 0;
