@@ -118,3 +118,101 @@ function WelcomeNewMembers(greeting){
 
 console.log(WelcomeNewMembers("Welcome to the Family!"))
 
+let user = {
+    name : "Princewill",
+    age : "30",
+    dateOfBirth : "05-04-1997",
+    name : "chuza",
+    age : "27",
+    dateOfBirth : "05-04-1999"
+    }
+
+console.log(user)
+
+console.log(1 === 90);
+
+console.log(50 < 100);
+
+console.log(24 <= 10);
+
+const number = 25;
+const value = 15;
+const total = number === value;
+console.log(total);
+
+const number1 = 15;
+const number2 = 12;
+const greater = number1 > number2;
+console.log(greater);
+
+let data = {
+apple : "green",
+fruitShape : "circle",
+apple : "red",
+fruitShape : "sphere",
+}
+console.log(data);
+
+
+const charging = true;
+const notCharging = !charging;
+console.log(notCharging);
+
+// Javascript will treat it as a string value instead of number because one of the numbers has double quotes around it.
+let answer  = "37" + 7;
+console.log(answer);
+
+// Here Javascript will treat it as a number value because both numbers are not in double quotes.
+let answer1 = 37 + 7;
+console.log(answer1);
+
+
+const coffees = ["French Roast", "Colombian", "Kona"];
+console.log(coffees[2]);
+
+var product = "apple"
+
+console.log("output in console from index.js file")
+
+function greet(name) {
+    return "Hello, " + name + "!";
+}
+console.log(greet("John"));
+
+function greet(name) {
+    return "Hello,"  + name + "!";
+}
+console.log(greet("Emily"));
+
+function greet(name) {
+    return "Hello,"  + name + "!";
+}
+console.log(greet("Sarah"));
+
+let student = {
+    firstName : "John",
+    lastName : "Doe"
+};
+if (student.firstName === "John") {
+    console.log("Hello, John!");
+} else {
+    lastName : "Doe"
+    console.log("Hello, Doe!");
+}
+
+let totalPrice = 100;
+let discount = 20;
+
+if (totalPrice > 105) {
+    discount = 30;
+
+}   else {
+    discount = 10;
+}
+console.log("if total price is"  +  " > "  + 105); 
+console.log("The discount is: " + "30");  
+
+let firstName = "John";
+let lastName = "Doe";
+
+if (firstName === "John" && lastName === "Doe");
