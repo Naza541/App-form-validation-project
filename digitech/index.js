@@ -118,6 +118,8 @@ function WelcomeNewMembers(greeting){
 
 console.log(WelcomeNewMembers("Welcome to the Family!"))
 
+const greeting = (user)
+
 let user = {
     name : "Princewill",
     age : "30",
